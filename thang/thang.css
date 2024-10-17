@@ -127,6 +127,7 @@ h2 {
 
 .bio {
     display: flex;
+
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 20px;
@@ -147,8 +148,33 @@ h2 {
     text-decoration: none;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.bio-item {
+    display: flex;
+    align-items: center;
+
+    margin-right: 20px;
+
+}
+
+.bio-item:last-child {
+    margin-right: 0;
+
+}
+
+.bio a {
+    color: #007bff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
 }
 
 .bio i {
     margin-right: 8px;
+
 }
