@@ -127,24 +127,20 @@ h2 {
 
 .bio {
     display: flex;
-    /* Xếp theo hàng ngang */
+
     justify-content: space-between;
-    /* Đều nhau */
     flex-wrap: wrap;
-    /* Để xuống hàng khi không đủ chỗ */
+    margin-top: 20px;
+
 }
 
 .bio-item {
-    display: flex;
-    align-items: center;
-    /* Căn giữa dọc */
-    margin-right: 20px;
-    /* Khoảng cách giữa các mục */
+    margin-right: 2rem;
+    flex: 1;
 }
 
 .bio-item:last-child {
     margin-right: 0;
-    /* Bỏ khoảng cách bên phải cho mục cuối cùng */
 }
 
 .bio a {
@@ -152,10 +148,33 @@ h2 {
     text-decoration: none;
     display: flex;
     align-items: center;
-    /* Căn giữa dọc */
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.bio-item {
+    display: flex;
+    align-items: center;
+
+    margin-right: 20px;
+
+}
+
+.bio-item:last-child {
+    margin-right: 0;
+
+}
+
+.bio a {
+    color: #007bff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
 }
 
 .bio i {
     margin-right: 8px;
-    /* Khoảng cách giữa biểu tượng và văn bản */
+
 }
