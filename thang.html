@@ -1,21 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      rel="icon"
-      href="https://cdn-icons-png.flaticon.com/512/2165/2165674.png"
-      type="image/x-icon"
-    />
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2165/2165674.png" type="image/x-icon" />
     <link rel="stylesheet" href="./thang/thang.css" />
     <link rel="stylesheet" href="./thang/themify-icons/themify-icons.css" />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <title>Phan Dinh Thang</title>
   </head>
 
@@ -27,52 +20,30 @@
         <div class="md:hidden">
           <button id="menu-button" class="text-gray-800 focus:outline-none">
             <!-- Hamburger Icon -->
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16m-7 6h7"
-              />
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
             </svg>
           </button>
         </div>
         <nav id="menu" class="hidden md:flex space-x-4">
           <a href="index.html" class="home">Home</a>
-          <a class="about" href="#content-container">About</a>
-        <a class="skill" href="#skill-container">Skill</a>
-        <a class="contact-header" href="#contact-container">Contact</a>
-         
+          <a class="about" href="#content-container-header">About</a>
+          <a class="skill" href="#content-container-between">Skill</a>
+          <a class="contact-header" href="#content-container-footer">Contact</a>
+
         </nav>
       </div>
       <!-- Mobile Menu -->
       <div id="mobile-menu" class="hidden md:hidden">
         <nav class="flex flex-col p-4 bg-white shadow-lg">
           <a href="#" class="text-gray-800 hover:text-blue-500 py-2">Home</a>
-          <a href="huy.html" class="text-gray-800 hover:text-blue-500 py-2"
-            >Huy</a
-          >
-          <a href="hieu.html" class="text-gray-800 hover:text-blue-500 py-2"
-            >Hiếu</a
-          >
-          <a href="quan.html" class="text-gray-800 hover:text-blue-500 py-2"
-            >Quân</a
-          >
-          <a href="thang.html" class="text-gray-800 hover:text-blue-500 py-2"
-            >Thắng</a
-          >
-          <a href="manh.html" class="text-gray-800 hover:text-blue-500 py-2"
-            >Mạnh</a
-          >
-          <a href="khoa.html" class="text-gray-800 hover:text-blue-500 py-2"
-            >Khoa</a
-          >
+          <a href="huy.html" class="text-gray-800 hover:text-blue-500 py-2">Huy</a>
+          <a href="hieu.html" class="text-gray-800 hover:text-blue-500 py-2">Hiếu</a>
+          <a href="quan.html" class="text-gray-800 hover:text-blue-500 py-2">Quân</a>
+          <a href="thang.html" class="text-gray-800 hover:text-blue-500 py-2">Thắng</a>
+          <a href="manh.html" class="text-gray-800 hover:text-blue-500 py-2">Mạnh</a>
+          <a href="khoa.html" class="text-gray-800 hover:text-blue-500 py-2">Khoa</a>
         </nav>
       </div>
     </header>
@@ -80,28 +51,19 @@
     <section class="w-full overflow-hidden bg-white mt-16">
       <div class="w-full mx-auto">
         <!-- User Cover IMAGE -->
-        <img
-          src="./thang/img/header-background.jpg"
-          alt="User Cover"
-          class="w-full h-auto xl:h-[20rem] lg:h-[22rem] md:h-[16rem] sm:h-[13rem] xs:h-[9.5rem] object-cover"
-        />
+        <img src="./thang/img/header-background.jpg" alt="User Cover"
+          class="w-full h-auto xl:h-[20rem] lg:h-[22rem] md:h-[16rem] sm:h-[13rem] xs:h-[9.5rem] object-cover" />
 
         <!-- User Profile Image -->
         <div class="mx-auto flex justify-center">
-          <img
-            src="./thang/img/463440912_122159399768108601_4501882501492219819_n.jpg"
-            alt="User Profile"
-            class="rounded-full bottom-[5rem] h-[10rem] object-cover xl:w-[16rem] xl:h-[16rem] lg:w-[16rem] lg:h-[16rem] md:w-[12rem] md:h-[12rem] sm:w-[10rem] sm:h-[10rem] outline outline-2 outline-offset-2 outline-yellow-500 shadow-xl relative xl:bottom-[7rem] lg:bottom-[8rem] md:bottom-[6rem] sm:bottom-[5rem] xs:bottom-[6rem]"
-          />
+          <img src="./thang/img/463440912_122159399768108601_4501882501492219819_n.jpg" alt="User Profile"
+            class="rounded-full bottom-[5rem] h-[10rem] object-cover xl:w-[16rem] xl:h-[16rem] lg:w-[16rem] lg:h-[16rem] md:w-[12rem] md:h-[12rem] sm:w-[10rem] sm:h-[10rem] outline outline-2 outline-offset-2 outline-yellow-500 shadow-xl relative xl:bottom-[7rem] lg:bottom-[8rem] md:bottom-[6rem] sm:bottom-[5rem] xs:bottom-[6rem]" />
         </div>
 
         <div
-          class="bottom-[4rem] xl:w-[80%] lg:w-[90%] md:w-[94%] sm:w-[96%] xs:w-[92%] mx-auto flex flex-col gap-4 justify-center items-center relative xl:-top-[6rem] lg:-top-[6rem] md:-top-[4rem] sm:-top-[3rem] xs:-top-[2.2rem]"
-        >
+          class="bottom-[4rem] xl:w-[80%] lg:w-[90%] md:w-[94%] sm:w-[96%] xs:w-[92%] mx-auto flex flex-col gap-4 justify-center items-center relative xl:-top-[6rem] lg:-top-[6rem] md:-top-[4rem] sm:-top-[3rem] xs:-top-[2.2rem]">
           <!-- FullName -->
-          <h1
-            class="font-bold text-center text-gray-800 text-md sm:text-xl lg:text-xl md:text-4xl font-serif"
-          >
+          <h1 class="font-bold text-center text-gray-800 text-md sm:text-xl lg:text-xl md:text-4xl font-serif">
             Phan Dinh Thang (Team - DarkLion)
           </h1>
           <!-- About -->
@@ -112,83 +74,101 @@
             Student Greenwich Of University
           </p>
         </div>
-       
+
     </section>
- <!-- content-container -->
 
-
-<div class="section" id="content-container">
-    <h2>About Me</h2>
-    <p class="about-me">
-        Tôi là sinh viên ngoại tỉnh, đến từ mảnh đất Tây Nguyên xa xôi và hẻo lánh. Sinh ra và lớn lên tại nơi này, tôi tự hào mang trong mình bản sắc văn hóa độc đáo và tinh thần mạnh mẽ của quê hương. Giờ đây, tôi đã chuyển đến Đà Nẵng để học tập và trải nghiệm cuộc sống mới, tuy sống xa nhà nhưng tôi hy vọng tôi sẽ tích lũy kiến thức và kỹ năng để trở thành phiên bản tốt nhất của chính mình.
-    </p>
-    <div class="bio">
-        <div class="bio-item">
-            <a href="#"><i class="far fa-calendar-alt pe-2 text-muted"></i> Age</a>
-        </div>
-        <div class="bio-item">
-            <a href="https://mail.google.com/mail/u/0/#chat/home?compose=new">
-                <i class="far fa-envelope pe-2 text-muted"></i> thangpdgcd201784@fpt.edu.vn
-            </a>
-        </div>
-        <div class="bio-item">
-            <a class="ti-facebook" href="https://www.facebook.com/profile.php?id=61553258036500">Thắng Phan</a>
-        </div>
-        <div class="bio-item">
-            <a href="https://www.tiktok.com/@thangphan190920/video/7403290162760862983">
-                <i class="fab fa-tiktok"></i> @thangphan190920
-            </a>
-        </div>
-        <div class="bio-item">
-            <a href="#"><i class="fas fa-phone"></i> +84 372714679</a>
-        </div>
+    <!-- content-container-header -->
+    <div class="Abouts" id="content-container-header">
+      <h2>About Me</h2>
+      <p class="about-me">
+        Tôi là sinh viên ngoại tỉnh, đến từ mảnh đất Tây Nguyên xa xôi và hẻo lánh. Sinh ra và lớn lên tại nơi này, tôi
+        tự hào mang trong mình bản sắc văn hóa độc đáo và tinh thần mạnh mẽ của quê hương. Giờ đây, tôi đã chuyển đến Đà
+        Nẵng để học tập và trải nghiệm cuộc sống mới, tuy sống xa nhà nhưng tôi hy vọng tôi sẽ tích lũy kiến thức và kỹ
+        năng để trở thành phiên bản tốt nhất của chính mình.
+      </p>
     </div>
-</div>
-<!-- content-between -->
- 
-<div class="section" id="content-container">
-    <h2>About Me</h2>
-    <p class="about-me">
-        Tôi là sinh viên ngoại tỉnh, đến từ mảnh đất Tây Nguyên xa xôi và hẻo lánh. Sinh ra và lớn lên tại nơi này, tôi tự hào mang trong mình bản sắc văn hóa độc đáo và tinh thần mạnh mẽ của quê hương. Giờ đây, tôi đã chuyển đến Đà Nẵng để học tập và trải nghiệm cuộc sống mới, tuy sống xa nhà nhưng tôi hy vọng tôi sẽ tích lũy kiến thức và kỹ năng để trở thành phiên bản tốt nhất của chính mình.
-    </p>
-    <div class="bio">
-        <div class="bio-item">
-            <a href="#"><i class="far fa-calendar-alt pe-2 text-muted"></i> Age</a>
-        </div>
-        <div class="bio-item">
-            <a href="https://mail.google.com/mail/u/0/#chat/home?compose=new">
-                <i class="far fa-envelope pe-2 text-muted"></i> thangpdgcd201784@fpt.edu.vn
-            </a>
-        </div>
-        <div class="bio-item">
-            <a class="ti-facebook" href="https://www.facebook.com/profile.php?id=61553258036500">Thắng Phan</a>
-        </div>
-        <div class="bio-item">
-            <a href="https://www.tiktok.com/@thangphan190920/video/7403290162760862983">
-                <i class="fab fa-tiktok"></i> @thangphan190920
-            </a>
-        </div>
-        <div class="bio-item">
-            <a href="#"><i class="fas fa-phone"></i> +84 372714679</a>
-        </div>
-
-         <div class="bio-item">
-            <a href="#"><i class="fab fa-github"></i> https://github.com/thangpdgcd</a>
-        </div>
+    <!-- end -->
 
 
-    </div>
-</div>
-
-
+    <!-- content-container-between -->
+    <div class="skills" id="content-container-between">
+      <h2>Skill</h2>
+      <div class="bio-skill">
+        <div class="bio-item-skill">
+          <p class="infor">
+            Biết cơ bản 1 số ngôn ngữ lập trình cụ
+            thể HTML,CSS,JAVASCRIPt,C#
+            Biết sử dụng thành thạo Microsoft
+            Word, Excel, Powerpoint
+            Biết sử dụng thành thạo: VSCODE,IDE
+          </p>
+        </div>
+        <div class="bio-item-skill">
+          <a class="icons">HTML
+            <img src="./thang/img/html.png" alt="C# Logo" width="20" height="20">
+          </a>
+        </div>
+        <div class="bio-item-skill">CSS
+          <a class="icons">
+            <img src="thang/img/css-3.png" alt="C# Logo" width="20" height="20">
+          </a>
+        </div>
+        <div class="bio-item-skill">
+          <a class="icons">JAVASCRIPt
+            <img src="./thang/img/java-script.png" alt="C# Logo" width="20" height="20">
+          </a>
+        </div>
+        <div class="bio-item-skill">
+          <a class="icons">C#
+            <img src="./thang/img/c-sharp.png" alt="C# Logo" width="20" height="20">
+          </a>
+        </div>
       </div>
-    <script>
-      const menuButton = document.getElementById("menu-button");
-      const mobileMenu = document.getElementById("mobile-menu");
+      <p>Phát triển web: Kỹ năng làm việc
+        với HTML, CSS, JavaScript,
+        ReactJS
+        Cơ sở dữ liệu: Hiểu biết về SQL,
+        NoSQL, MySQL, MongoDB
+        Quản lý dự án: Kỹ năng sử dụng
+        các công cụ quản lý như Git
+        Làm việc nhóm
+        Kĩ năng nghiên cứu và tự học
+      </p>
+    </div>
+    <!-- end -->
 
-      menuButton.addEventListener("click", () => {
-        mobileMenu.classList.toggle("hidden");
-      });
-    </script>
+
+    <!-- content-container-footer -->
+    <div class="contact" id="content-container-footer">
+      <h2>Contact</h2>
+      <div class="bio">
+        <div class="bio-item">
+          <a class="date"><i class="far fa-calendar-alt pe-2 text-muted"></i> 22</a>
+        </div>
+        <div class="bio-item">
+          <a href="https://mail.google.com/mail/u/0/#chat/home?compose=new" class="gmail">
+            <i class="far fa-envelope pe-2 text-muted icon-gmail"></i>Thangpdgcd201784@fpt.edu.vn
+          </a>
+        </div>
+        <div class="bio-item">
+          <a class="facebook" href="https://www.facebook.com/profile.php?id=61553258036500">
+            <i class="ti-facebook"></i>Thắng Phan</a>
+        </div>
+        <div class="bio-item">
+          <a class="tiktok" href="https://www.tiktok.com/@thangphan190920/video/7403290162760862983">
+            <i class="fab fa-tiktok"></i> @thangphan190920
+          </a>
+        </div>
+        <div class="bio-item">
+          <a class="mobile"><i class="fas fa-phone phone="></i>0372714679</a>
+        </div>
+      </div>
+    </div>
+    <!-- end -->
+
+
+    <!-- add script in file -->
+    <script src="./thang/thang.js"></script>
   </body>
+
 </html>
