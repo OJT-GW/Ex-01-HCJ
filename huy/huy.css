@@ -1,0 +1,10 @@
+.about-me-section {
+    background-image: url('https://scontent.fdad3-5.fna.fbcdn.net/v/t39.30808-6/458179076_1018566739814802_1594345037265631464_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHu80Wh-pf3whoa2O_xkulmIT4InVy01dwhPgidXLTV3D616jSRy31v7rtJShkscl1gJPgE8_tJ8bMnguZ5IPow&_nc_ohc=W1tAQ9rZa2UQ7kNvgGVAyt7&_nc_ht=scontent.fdad3-5.fna&_nc_gid=ALg4oQglRpB_TtN03alFZyy&oh=00_AYDXCdVBnKrg6DMyjDqSDT70BcPHws8ULLuRuBdeZriyjg&oe=6716A89A');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-color: black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
