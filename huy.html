@@ -1,1 +1,122 @@
-Huyyy
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./huy/huy.css">
+    <title>Nghiêm Lê Thành Huy</title>
+  </head>
+  <body>
+    <!-- Fixed Header -->
+    <header class="fixed top-0 left-0 right-0 bg-white shadow-lg z-10">
+      <div class="container mx-auto p-4 flex justify-between items-center">
+        <h1 class="text-xl font-bold text-gray-800">DarkLion</h1>
+        <div class="md:hidden">
+          <button id="menu-button" class="text-gray-800 focus:outline-none">
+            <!-- Hamburger Icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+            </svg>
+          </button>
+        </div>
+        <nav id="menu" class="hidden md:flex space-x-4">
+          <a href="index.html" class="text-gray-800 hover:text-blue-500">Home</a>
+          <a href="huy.html" class="text-gray-800 hover:text-blue-500">Huy</a>
+          <a href="hieu.html" class="text-gray-800 hover:text-blue-500">Hiếu</a>
+          <a href="quan.html" class="text-gray-800 hover:text-blue-500">Quân</a>
+          <a href="thang.html" class="text-gray-800 hover:text-blue-500">Thắng</a>
+          <a href="manh.html" class="text-gray-800 hover:text-blue-500">Mạnh</a>
+          <a href="khoa.html" class="text-gray-800 hover:text-blue-500">Khoa</a>
+        </nav>
+      </div>
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden">
+        <nav class="flex flex-col p-4 bg-white shadow-lg">
+          <a href="#" class="text-gray-800 hover:text-blue-500 py-2">Home</a>
+          <a href="huy.html" class="text-gray-800 hover:text-blue-500 py-2">Huy</a>
+          <a href="hieu.html" class="text-gray-800 hover:text-blue-500 py-2">Hiếu</a>
+          <a href="quan.html" class="text-gray-800 hover:text-blue-500 py-2">Quân</a>
+          <a href="thang.html" class="text-gray-800 hover:text-blue-500 py-2">Thắng</a
+          ><a href="manh.html" class="text-gray-800 hover:text-blue-500 py-2">Mạnh</a
+          ><a href="khoa.html" class="text-gray-800 hover:text-blue-500 py-2">Khoa</a>
+        </nav>
+      </div>
+    </header>
+
+      <div class="w-full mx-auto">
+        <div
+          class="bottom-[4rem] xl:w-[80%] lg:w-[90%] md:w-[94%] sm:w-[96%] xs:w-[92%] mx-auto flex flex-col gap-4 justify-center items-center relative xl:-top-[6rem] lg:-top-[6rem] md:-top-[4rem] sm:-top-[3rem] xs:-top-[2.2rem]">
+          <!-- FullName -->
+          <h1 class="font-bold text-center text-white text-md sm:text-xl lg:text-xl md:text-4xl font-serif">
+                    
+          </h1>
+          <!-- About -->
+          <p class="w-full text-gray-200 text-md text-pretty text-center">
+          </p>
+          <p class="w-full text-white text-md text-pretty text-center">
+            Front-End Developer
+          </p>
+        </div>
+      </div>
+      <section class="profile">
+        <section class="profile-header">
+            <img class="profile-picture" src="https://scontent.fdad3-5.fna.fbcdn.net/v/t39.30808-6/458179076_1018566739814802_1594345037265631464_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHu80Wh-pf3whoa2O_xkulmIT4InVy01dwhPgidXLTV3D616jSRy31v7rtJShkscl1gJPgE8_tJ8bMnguZ5IPow&_nc_ohc=W1tAQ9rZa2UQ7kNvgGVAyt7&_nc_ht=scontent.fdad3-5.fna&_nc_gid=ALg4oQglRpB_TtN03alFZyy&oh=00_AYDXCdVBnKrg6DMyjDqSDT70BcPHws8ULLuRuBdeZriyjg&oe=6716A89A" alt="Profile Picture">
+            <h1 class="profile-name"><strong>Nghiem Le Thanh Huy</strong></h1>
+            <p class="profile-age"><strong>Age: 22</strong></p>
+        </section>
+        <section class="profile-bio">
+          <h2><strong>About me</strong></h2>
+          <p>
+              I am a 3rd-year Information Technology student at Greenwich University Vietnam, 
+              eager to learn and think creatively. With a solid foundation of knowledge from
+              my studies, I aim to become a professional programmer, starting with
+              an internship to contribute value to both business and my personal
+              growth.
+          </p>
+      </section>
+      
+      <section class="skill-bio">
+        <h2><strong>Skills</strong></h2>
+        <ul class="list-disc pl-5">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>C++</li>
+        </ul>
+    </section>
+    
+    <section class="language-bio">
+        <h2><strong>Language</strong></h2>
+        <ul class="list-disc pl-5">
+            <li>Vietnamese</li>
+            <li>English</li>
+        </ul>
+    </section>
+    
+    <section class="personal-skills">
+        <h2><strong>Personal Skills</strong></h2>
+        <ul class="list-disc pl-5">
+            <li>Working Group</li>
+            <li>Adobe Photoshop</li>
+            <li>Aegisub</li>
+            <li>Microsoft Office</li>
+            <li>Volunteer</li>
+            <li>Translation</li>
+            <li>Facebook Page Management</li>
+        </ul>
+    </section>
+    
+    <script>
+      const menuButton = document.getElementById("menu-button");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      menuButton.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
