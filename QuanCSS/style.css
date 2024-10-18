@@ -1,28 +1,33 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #a5a0a0;
-    color: #aca6a6;
+    background-color: #f1eaea;
+    color: #000000;
     margin: 0;
     padding: 0;
 }
 
-.profile {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+.links {
     text-align: center;
+    margin: 20px 0;
 }
 
-h1 {
-    font-size: 2em;
+.links h2 {
+    font-size: 1.5em;
     margin-bottom: 10px;
+}
+
+.profile-info {
+    text-align: center; /* Căn giữa thông tin profile */
+    padding: 20px;
+}
+
+.profile-info h1 {
+    font-size: 2em;
+    margin: 10px 0;
 }
 
 .details p, h2, ul {
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 
 ul {
@@ -37,4 +42,22 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Style for the cover image */
+.cover-image {
+    width: 100%;
+    height: auto;
+    max-height: 20rem; /* Chiều cao tối đa cho ảnh bìa */
+    object-fit: cover;
+}
+
+/* Style for the profile image */
+.profile-image {
+    border-radius: 50%; /* Để tạo hình tròn */
+    height: 10rem; /* Chiều cao cho hình đại diện */
+    width: 10rem; /* Chiều rộng cho hình đại diện */
+    outline: 2px solid #fcd34d; /* Màu viền cho hình đại diện */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng cho hình đại diện */
+    margin-bottom: 1rem; /* Khoảng cách dưới hình đại diện */
 }
