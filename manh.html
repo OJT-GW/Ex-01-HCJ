@@ -1,1 +1,120 @@
-Lai Van Manh
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./ManhCSS/style.css" />
+    <title>Team Profile</title>
+  </head>
+
+  <body>
+    <!-- Fixed Header -->
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">DarkLion</h1>
+        <div class="menu-button-container">
+          <button id="menu-button" class="menu-button">
+            <!-- Hamburger Icon -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+            </svg>
+          </button>
+        </div>
+        <nav id="menu" class="nav-links">
+          <a href="index.html"  class="nav-link">Home</a>
+          <a href="huy.html" class="nav-link">Huy</a>
+          <a href="hieu.html" class="nav-link">Hiếu</a>
+          <a href="quan.html" class="nav-link">Quân</a>
+          <a href="thang.html" class="nav-link">Thắng</a>
+          <a href="manh.html" class="nav-link">Mạnh</a>
+          <a href="khoa.html" class="nav-link">Khoa</a>
+        </nav>
+      </div>
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="mobile-menu">
+        <nav class="mobile-nav">
+          <a href="#" class="mobile-nav-link">Home</a>
+          <a href="huy.html" class="mobile-nav-link">Huy</a>
+          <a href="hieu.html" class="mobile-nav-link">Hiếu</a>
+          <a href="quan.html" class="mobile-nav-link">Quân</a>
+          <a href="thang.html" class="mobile-nav-link">Thắng</a>
+          <a href="manh.html" class="mobile-nav-link">Mạnh</a>
+          <a href="khoa.html" class="mobile-nav-link">Khoa</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="profile-section">
+      <div class="profile-container">
+        <!-- User Cover IMAGE -->
+        <img
+          src="https://c4.wallpaperflare.com/wallpaper/22/240/855/texture-gradient-simple-background-blue-wallpaper-preview.jpg"
+          alt="User Cover"
+          class="cover-image"
+        />
+
+        <!-- User Profile Image -->
+        <div class="profile-image-container">
+          <img
+            src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/445378305_1529437774637925_2718525627390368797_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFnp3bSMF0okWyWfp9LkXp_1gfi-wnb93XWB-L7Cdv3dROoWr_Ktuzu0V3Ef5yqe4BkxW6DwTzuTSIlH19cc9Ad&_nc_ohc=IZg4luZyfg8Q7kNvgF0XIw9&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=AF6vuVBCjKHQqtv4KBTISdN&oh=00_AYACMzaJpojCGf94m9hhZ2UkArL9AmH7T_rV1Ap8Oi3UTA&oe=6717B66E"
+            alt="User Profile"
+            class="profile-image"
+          />
+        </div>
+
+        <div class="profile-info-container">
+          <!-- FullName -->
+          <h1 class="profile-name">Lại Văn Mạnh</h1>
+          <!-- About -->
+          <h2 class="profile-about">IT Intern</h2>
+          <p class="profile-role">
+            I'm a third-year IT student with hands-on experience in software
+            development, <br />
+            I bring strong problem-solving abilities and a proactive approach to
+            learning and applying new technologies.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Education -->
+    <div class="education">
+        <h2>Education</h2>
+        <p>University Of Greenwich 2021 - Present</p>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact">
+        <h2>Contact</h2>
+        <ul>
+            <li>Email: vanhman03@gmail.com</li>
+            <li>Number: 0364164079</li>
+            <li>GitHub: <a href="https://github.com/vanhman03">github.com/vanhman03</a></li>
+        
+
+        </ul>
+    </div>
+    <footer>
+        <div></div>
+    </footer>
+
+    <script>
+      const menuButton = document.getElementById("menu-button");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      menuButton.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
