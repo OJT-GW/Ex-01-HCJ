@@ -6,30 +6,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./HieuCSS/style.css">
-    <title>Portfolio Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Hieu Profile</title>
 </head>
 <body>
+    
     <nav>
         <div class="nav-container">
             <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
-                 <span>Kubo</span>
+                 <span>DarkLion</span>
             </div>
-            <!-- <div class="links">
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Home</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#">About</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#">Skills</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#">Service</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#">Contact</a></div>
-            </div> -->
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="./index.html">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="./huy.html">Huy</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="./hieu.html">Hieu</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="./quan.html">Quan</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="./thang.html">Thang</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="./manh.html">Manh</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="./khoa.html">Khoa</a></div>
+            </div>
         </div>
-        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i> -->
         <div class="dropdown">
             <div class="links">
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Skills</a>
-                <a href="">Service</a>
-                <a href="">Contact</a>
+                <a href="./index.html">Home</a>
+                <a href="./huy.html">Huy</a>
+                <a href="./hieu.html">Hieu</a>
+                <a href="./quan.html">Quan</a>
+                <a href="./thang.html">Thang</a>
+                <a href="./manh.html">Manh</a>
+                <a href="./khoa.html">Khoa</a>
+
                 <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
             </div>
         </div>
@@ -43,13 +50,15 @@
                     programming, I am also an experienced back-end with Web-Developer working with .NET Framework. With a
                     background in Ui/Ux design, I enjoy solving user interface problems and creating the best user experience for users.</p>
                 <div class="social-links">
-                    <a data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/hieu-nguyen-7a1010309/"data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/hieu521?tab=repositories" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/kubosantos8/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-instagram"></i></a>
                 </div>
                 <div class="btn" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="1800">
-                    <button>Download CV</button>
+                    <a href="https://drive.google.com/file/d/1_ajioo2btVcBEilOV4Up4xr6YhfcIrPj/view?usp=drive_link" target="_blank">
+                        <button>Download CV</button>
+                    </a>
                 </div>
             </div>
             <div class="image" data-aos="zoom-in" data-aos-duration="3000">
@@ -57,7 +66,47 @@
             </div>
         </div>
     </section>
+    <section class="empty"></section>
+    <section class="skills" id="skills">
+        <h2 class ="heading">Skills</h2>
+        <div class="container">
+            <div class="row" id="skillsContainer">
+                <div class="bar">
+                    <div class="info">
+                        <img src="./HieuCSS/img/imageskill1.png" >
+                        <span>.Net</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./HieuCSS/img/logoskill2.webp" >
+                        <span>React</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./HieuCSS/img/logoskil3.jpg" >
+                        <span>NextJs</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./HieuCSS/img/logopython-removebg-preview.png" >
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./HieuCSS/img/logotaiwind.png" >
+                        <span>Tailwind</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
       AOS.init({offset:0,});
     </script>
